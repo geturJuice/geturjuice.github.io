@@ -1,32 +1,51 @@
-    body {
+    body{
       text-align: center;
-      background: url();
+      background: black;
       background-size: cover;
       background-position: center;
       color: white;
       font-family: helvetica;
     }
     h1{
-      color:black;
+      color:white;
     }
-    p {
+    h2{
       padding:50px 50px 50px 50px;
-      color:black;
+      color:white;
       font-size: 22px;
     }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
+    img{
+      height: 200px;
+       border: 7px solid white;
+    border-radius:20px;
     }
-    input[type="submit"] {
-      background: orange;
-      color: white;
+    
+    p {
+         background: black;
+         background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+         background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+         background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+         bottom:0;
+         position: absolute;
     }
-    div{
+
+    .sizing {
+    height:300px;
+    width:300px;
+    background: 100%;
+    margin:0px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius:20px;
+    }
+    #patriots{
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      background-image: url("http://www.homedepot.com/catalog/productImages/400/5a/5a08b995-fa79-40d7-adcd-3ab0ec1f9c16_400.jpg");
 
     }
     .hometown{
-
+      position: absolute;
+      text-align: left;
       background-image: url("http://static.panoramio.com/photos/large/6243953.jpg");
     }
