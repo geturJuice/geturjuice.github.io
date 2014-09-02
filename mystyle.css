@@ -1,0 +1,25 @@
+    body {
+      text-align: center;
+      background: url();
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    h1{
+      color:black;
+    }
+    p {
+      padding:50px 50px 50px 50px;
+      color:black;
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: orange;
+      color: white;
+    }
